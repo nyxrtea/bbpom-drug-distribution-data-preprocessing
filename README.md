@@ -46,6 +46,14 @@ Corresponding author: Yuni Rosita Dewi (yunidewi@unesa.ac.id)
 | `requirements.txt` | Python package versions used. |
 | `README.md` | This file. |
 
+## Supplementary Tables (`supplementary_tables.xlsx`)
+| Table | Content | Sheets in the workbook |
+|---|---|---|
+| S1 | Large-quantity IQR thresholds ($Q_3 + 1.5 \times \text{IQR}$) and group sample sizes | `S1_Batas_IQR_E1`, `S1_Batas_IQR_E3` |
+| S2 | Indicator eligibility rules, denominators, and calibrated conditional probabilities | `S2_Frekuensi_Indikator`, `S2_Kalibrasi_Prior`, `S2_Parameter_Referensi` |
+| S3 | Complete expert-versus-model contingency matrix and binary confusion matrix for Validation 2 | `S3_Confusion_Validasi`, `S3_Ukuran_Validasi` |
+| S4 | Pattern-level Monte Carlo sensitivity stability results across Schemes A and B | `S4_Stabilitas_Kategori`, `S4_Stabilitas_Pola`, `S4_MC_Ringkasan` |
+
 ## Requirements
 
 - Python 3.11.7
