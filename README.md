@@ -37,12 +37,11 @@ Corresponding author: Yuni Rosita Dewi (yunidewi@unesa.ac.id)
 | Validation | 9 rated transactions (T001-T012), two stratified expert samples (n = 98 and n = 59) with repeat assessments |
 
 ## Repository contents
-
+ 
 | File | Description |
 |---|---|
-| `Cleaning_BBPOM_Final_Colab.ipynb` | Data cleaning: duplicate removal, filters and unit standardization (208,162 raw rows to 161,728 analysed transactions). |
-| `KODE_1_FINAL.ipynb` | Indicator construction, Bernoulli Naive Bayes, baselines, OAT and Monte Carlo analysis, validation, and the tables and figures of the manuscript. |
-| `tabel_suplemen_artikel.xlsx` | Supplementary Tables S1-S5: IQR limits, indicator frequencies and calibration, confusion matrices and validation measures, Monte Carlo stability, validation strata and weights. |
+| `Code_Analysis.ipynb` | Data cleaning (208,162 raw rows to 161,728 analysed transactions), indicator construction, Bernoulli Naive Bayes, baselines, OAT and Monte Carlo analysis, validation, and the tables and figures of the manuscript. |
+| `Supplementary_Tables.xlsx` | Supplementary Tables S1-S4 (see the section below). |
 | `requirements.txt` | Python package versions used. |
 | `README.md` | This file. |
 
